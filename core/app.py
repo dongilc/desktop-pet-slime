@@ -202,21 +202,29 @@ class PetApp:
             self.settings.set("break_interval_min", dialog.result_break_min)
             self.activity.break_interval = dialog.result_break_min * 60
 
-            # Save and apply size
-            self.settings.set("size_percent", dialog.result_size_percent)
-            new_size = int(250 * dialog.result_size_percent / 100)
-            self.window.WIDGET_SIZE = new_size
-            self.window.setFixedSize(new_size, new_size)
+            # Remember current position
+            current_pos = self.window.pos()
+            was_visible = self.window.isVisible()
 
-            # Always on top
+            # Always on top (must set flags before size, as it recreates window)
             self.settings.set("always_on_top", dialog.result_topmost)
             flags = (Qt.WindowType.FramelessWindowHint | Qt.WindowType.Tool)
             if dialog.result_topmost:
                 flags |= Qt.WindowType.WindowStaysOnTopHint
-            was_visible = self.window.isVisible()
             self.window.setWindowFlags(flags)
             self.window.setAttribute(
                 Qt.WidgetAttribute.WA_TranslucentBackground)
+
+            # Save and apply size
+            self.settings.set("size_percent", dialog.result_size_percent)
+            new_size = int(250 * dialog.result_size_percent / 100)
+            self.window.WIDGET_SIZE = new_size
+            self.window.setMinimumSize(0, 0)
+            self.window.setMaximumSize(16777215, 16777215)
+            self.window.setFixedSize(new_size, new_size)
+
+            # Restore position and show
+            self.window.move(current_pos)
             if was_visible:
                 self.window.show()
 

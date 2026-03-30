@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="images/screenshot_slime_happy.png" width="180" alt="Desktop Pet Slime">
+<img src="https://raw.githubusercontent.com/dongilc/desktop-pet-slime/main/images/screenshot_slime_happy.png" width="180" alt="Desktop Pet Slime">
 
 **바탕화면에 살아있는 슬라임 캐릭터가 시스템 상태를 모니터링하는 Windows 데스크톱 유틸리티**
 
@@ -73,15 +73,15 @@
 
 <table>
 <tr>
-<td align="center"><img src="images/screenshot_slime_idle.png" width="100"><br><b>IDLE</b><br>기본</td>
-<td align="center"><img src="images/screenshot_slime_happy.png" width="100"><br><b>HAPPY</b><br>여유</td>
-<td align="center"><img src="images/screenshot_slime_stressed.png" width="100"><br><b>STRESSED</b><br>과부하</td>
-<td align="center"><img src="images/screenshot_slime_sleepy.png" width="100"><br><b>SLEEPY</b><br>유휴</td>
+<td align="center"><img src="https://raw.githubusercontent.com/dongilc/desktop-pet-slime/main/images/screenshot_slime_idle.png" width="100"><br><b>IDLE</b><br>기본</td>
+<td align="center"><img src="https://raw.githubusercontent.com/dongilc/desktop-pet-slime/main/images/screenshot_slime_happy.png" width="100"><br><b>HAPPY</b><br>여유</td>
+<td align="center"><img src="https://raw.githubusercontent.com/dongilc/desktop-pet-slime/main/images/screenshot_slime_stressed.png" width="100"><br><b>STRESSED</b><br>과부하</td>
+<td align="center"><img src="https://raw.githubusercontent.com/dongilc/desktop-pet-slime/main/images/screenshot_slime_sleepy.png" width="100"><br><b>SLEEPY</b><br>유휴</td>
 </tr>
 <tr>
-<td align="center"><img src="images/screenshot_slime_hungry.png" width="100"><br><b>HUNGRY</b><br>메모리 부족</td>
-<td align="center"><img src="images/screenshot_slime_sick.png" width="100"><br><b>SICK</b><br>디스크 부족</td>
-<td align="center"><img src="images/screenshot_slime_petted.png" width="100"><br><b>PETTED</b><br>쓰다듬기</td>
+<td align="center"><img src="https://raw.githubusercontent.com/dongilc/desktop-pet-slime/main/images/screenshot_slime_hungry.png" width="100"><br><b>HUNGRY</b><br>메모리 부족</td>
+<td align="center"><img src="https://raw.githubusercontent.com/dongilc/desktop-pet-slime/main/images/screenshot_slime_sick.png" width="100"><br><b>SICK</b><br>디스크 부족</td>
+<td align="center"><img src="https://raw.githubusercontent.com/dongilc/desktop-pet-slime/main/images/screenshot_slime_petted.png" width="100"><br><b>PETTED</b><br>쓰다듬기</td>
 <td align="center"></td>
 </tr>
 </table>
@@ -91,7 +91,7 @@
 ### 바탕화면 위의 슬라임
 
 <div align="center">
-<img src="images/screenshot_desktop.png" width="800" alt="Desktop Screenshot">
+<img src="https://raw.githubusercontent.com/dongilc/desktop-pet-slime/main/images/screenshot_desktop.png" width="800" alt="Desktop Screenshot">
 <br><i>바탕화면 우측 하단에 위치한 Desktop Pet Slime</i>
 </div>
 
