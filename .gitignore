@@ -8,4 +8,6 @@ build/
 config.json
 _img_data.json
 screenshot_*.png
+!images/screenshot_*.png
 generate_report.py
+generate_readme.py
